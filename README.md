@@ -12,14 +12,15 @@
 **## Deployed Application**
 
 Access the deployed application here:
-[**Star Type Classifier App**](https://your-streamlit-app-url.streamlit.app)  
-(Note: Replace the placeholder URL with the actual deployed app URL.)
+[**Star Type Classifier App**]https://star-type-classifier.streamlit.app/
+
 
 **## Project Structure**
 
 ```
 |-- backend.py               # FastAPI backend for handling predictions
 |-- frontend.py              # Streamlit frontend for user interaction
+|-- pipeline_for_startypepredictor.joblib               # Pipeline for of the model
 |-- Star_type_Classifier_completed.ipynb  # Jupyter Notebook with ML model development
 |-- requirements.txt         # List of dependencies
 |-- sidebar_image.png        # Sidebar image for the frontend
